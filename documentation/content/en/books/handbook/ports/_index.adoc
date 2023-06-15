@@ -731,14 +731,14 @@ If the ports tree is not available, or pkg is being used to manage packages, Git
 +
 [source,shell]
 ....
-# git clone https://git.FreeBSD.org/ports.git /usr/ports
+# git clone --depth 1 https://git.FreeBSD.org/ports.git /usr/ports
 ....
 +
 . Or, check out a quarterly branch:
 +
 [source,shell]
 ....
-# git clone https://git.FreeBSD.org/ports.git -b 2023Q1 /usr/ports
+# git clone --depth 1 https://git.FreeBSD.org/ports.git -b 2023Q1 /usr/ports
 ....
 +
 . As needed, update `/usr/ports` after the initial Git checkout:
